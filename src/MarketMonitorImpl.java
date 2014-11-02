@@ -11,4 +11,6 @@ public class MarketMonitorImpl {
     private double low;                 //low price of the market data snapshot being processed
     private ZonedDateTime timeStamp;    //time stamp of the market data snapshot being processed
     private File marketDataFile;        //historic market price data file
+    //returns true if the safetyCatchLevel threshold has not been reached yet since the reference period ended
+    private boolean safetyCatchOn;
 }
