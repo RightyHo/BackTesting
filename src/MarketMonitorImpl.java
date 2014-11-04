@@ -12,5 +12,5 @@ public class MarketMonitorImpl {
     private ZonedDateTime timeStamp;    //time stamp of the market data snapshot being processed
     private File marketDataFile;        //historic market price data file
     //returns true if the safetyCatchLevel threshold has not been reached yet since the reference period ended
-    private boolean safetyCatchOn;
+    private boolean safetyCatchOn;      //trade search active Vs wait if the safety catch is on
 }

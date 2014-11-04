@@ -20,4 +20,5 @@ public class TradingStrategyImpl {
     private double riskPerPip;              //amount of money the trade risks per pip movement eg; $10
     private double dailyLossLimit;          //limit denoting the largest acceptable daily loss amount eg; $1,000
     private int minsPerDataUpdate;          //number of minutes between market data snapshot updates eg; 1 minute
+    private String strategyType;            //IF-DONE-OCO Vs IF-DONE-TRAIL ...only needs to be defined as an extension to the project
 }

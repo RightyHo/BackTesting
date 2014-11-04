@@ -14,4 +14,5 @@ public class TradeImpl {
     private double markToMarket;    //current profitability of the trade...final profitablity of the trade if tradeopen = false
     private double exitPrice;       //trade exit price
     private double exitSlippage;    //difference between order trigger price and eventual trade exit price due to latency/spread/market movement
+    //consider extending the project by adding a trailing S/L once the fixed S/L is built
 }
